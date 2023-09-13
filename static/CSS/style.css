@@ -1,0 +1,58 @@
+
+.img{
+    width: 20px;
+    height: 20px;
+}
+.post{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+    
+}
+.card{
+    border: 2px solid black;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+h2, h1{
+    text-align: center;
+}
+.blog-form{
+    display: grid;
+    justify-content: center;
+}
+
+.pre-wrapper{
+	position:relative;
+}
+.pre-wrapper pre{
+	padding-top: 25px;
+}
+.pre-wrapper .copy-snippet {
+	border-radius: 0;
+	min-width:55px;
+	background: none repeat scroll 0 0 transparent;
+	border: 1px solid #bbb;
+	color: #26589F;
+	font-family: 'HELEVETICA',sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.42rem;
+	margin: 0;
+	padding: 0px 5px;
+	text-align: center;
+	text-decoration: none;
+	text-indent: 0;
+	position:absolute;
+	background:#ccc;
+	top:30px;
+	right:20px;
+}
+.pre-wrapper .copy-snippet:disabled{
+	color:#555;
+}
+
+ 
